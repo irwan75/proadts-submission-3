@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">proadts</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="this_is_detail_user_page">This is Detail User Page</string>
+    <string name="this_is_search_user_page">This is Search User Page</string>
+    <string name="this_is_list_user_page">This is List User Page</string>
+    <string name="name_user">Joke Wharton</string>
+    <string name="id_user">jokewharton</string>
+    <string name="company">Google Inc</string>
+    <string name="avatar_sematics">Avatar Image</string>
+</resources>

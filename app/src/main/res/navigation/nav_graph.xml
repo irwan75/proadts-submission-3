@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/userListFragment">
+
+    <fragment
+        android:id="@+id/userListFragment"
+        android:name="com.ardev.proadts.modules.userlist.UserListFragment"
+        android:label="fragment_item_list"
+        tools:layout="@layout/fragment_user_list" >
+        <action
+            android:id="@+id/action_userListFragment_to_detailUserFragment"
+            app:destination="@id/detailUserFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+        <action
+            android:id="@+id/action_userListFragment_to_searchUserFragment"
+            app:destination="@id/searchUserFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/detailUserFragment"
+        android:name="com.ardev.proadts.modules.detailuser.DetailUserFragment"
+        android:label="fragment_detail_item"
+        tools:layout="@layout/fragment_detail_user" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchUserFragment"
+        android:name="com.ardev.proadts.modules.searchuser.SearchUserFragment"
+        android:label="fragment_detail_item"
+        tools:layout="@layout/fragment_search_user" >
+    </fragment>
+
+</navigation>

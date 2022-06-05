@@ -1,0 +1,52 @@
+package com.ardev.proadts.base
+
+import android.content.Context
+import android.util.AttributeSet
+import android.view.View
+import com.google.android.material.appbar.AppBarLayout
+
+abstract class BaseToolbar : AppBarLayout {
+
+    private var mView: View? = null
+
+    fun getmView(): View? {
+        return mView
+    }
+
+    constructor(context: Context) : super(context) {
+        inflateView(context)
+        initUI()
+    }
+
+    constructor(context: Context, attributeSet: AttributeSet?) : super(context, attributeSet) {
+        inflateView(context)
+
+        initUI()
+    }
+
+    constructor(context: Context, attributeSet: AttributeSet?, defStyleAttr: Int) : super(
+        context,
+        attributeSet,
+        defStyleAttr
+    ) {
+        inflateView(context)
+
+        initUI()
+    }
+
+
+    abstract fun getLayoutId(): Int
+
+    private fun inflateView(context: Context): View? {
+        if (mView==null) {
+            mView = View.inflate(context, getLayoutId(), this)
+        }
+        return mView!!
+    }
+
+    open fun initUI() {
+    }
+
+
+
+}

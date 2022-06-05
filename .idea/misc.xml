@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.188" />
+        <entry key="app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.188" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/appbar_detail_user.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/appbar_search_user.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/appbar_user_list.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/card_item.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/card_list_user.xml" value="0.2907692307692308" />
+        <entry key="app/src/main/res/layout/card_list_users.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/card_prod.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/layout/card_product.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/layout/card_user_view_list.xml" value="0.1140625" />
+        <entry key="app/src/main/res/layout/fragment_detail_user.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/fragment_search_user.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/fragment_user_list.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/loading_default.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/recycler_list_users.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/sample_recycler_list_users.xml" value="0.28125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
